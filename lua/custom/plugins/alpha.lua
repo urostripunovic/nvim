@@ -32,7 +32,7 @@ return {
       dashboard.button('\\', '   File Explorer'),
       dashboard.button('<Leader>f.', '󰈚   Recent'),
       dashboard.button('<Leader>fg', '󱘞   Ripgrep'),
-      dashboard.button('<C-q>', '󰗼   Quit'),
+      dashboard.button('<M-q>', '󰗼   Quit'),
     }
 
     -- Footer
