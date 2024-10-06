@@ -109,6 +109,8 @@ return {
       gopls = {},
       ocamllsp = {},
       java_language_server = {},
+      cssls = {},
+      eslint = {},
       -- pyright = {},
       -- rust_analyzer = {},
       -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
@@ -118,6 +120,7 @@ return {
       --
       -- But for many setups, the LSP (`ts_ls`) will work just fine
       ts_ls = {},
+      biome = {},
       --
 
       lua_ls = {
@@ -150,6 +153,9 @@ return {
       'go-debug-adapter',
       'bash-debug-adapter',
       'delve',
+      'ocamllsp',
+      'java-language-server',
+      'typescript-language-server',
     })
     require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 

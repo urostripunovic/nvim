@@ -56,6 +56,7 @@ opt.cpoptions:remove '_' -- Makes cw/cW include trailing whitespace
 o.expandtab = true -- Use spaces for indentation
 o.shiftwidth = 2 -- Width of indentation
 o.tabstop = 4 -- Width of <Tab> characters
+o.smartindent = true
 o.shiftround = true -- Round indent to multiple of shiftwdith
 opt.cinkeys:remove '0#' -- Indent lines starting with `#`
 -- Sets how neovim will display certain whitespace characters in the editor.

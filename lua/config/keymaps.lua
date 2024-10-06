@@ -7,6 +7,13 @@ local map = vim.keymap.set
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
+map('i', '<M-b>', '<ESC>^i', { desc = 'move beginning of line' })
+map('i', '<M-e>', '<End>', { desc = 'move end of line' })
+map('i', '<M-h>', '<Left>', { desc = 'move left' })
+map('i', '<M-l>', '<Right>', { desc = 'move right' })
+map('i', '<M-j>', '<Down>', { desc = 'move down' })
+map('i', '<M-k>', '<Up>', { desc = 'move up' })
+
 map('n', '<Esc>', '<cmd>nohlsearch<CR>')
 map('n', ';', ':', { desc = 'CMD enter command mode' })
 map('i', 'jk', '<Esc>', { desc = 'Leave insert mode' })
