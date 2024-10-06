@@ -8,6 +8,11 @@ opt.mouse = 'a'
 -- General --
 o.showmode = false -- Don't write out `--INSERT--`, etc.
 o.linebreak = true -- Don't break lines in the middle of a word
+opt.shortmess:append 'A' -- Ignores swapfiles when opening file
+opt.shortmess:append 's' -- Disable 'Search hit BOTTOM, continuing at TOP'
+-- opt.shortmess:append 'cS' -- Disable "[1/5]", "Pattern not found", etc.
+opt.shortmess:append 'FW' -- Disable message after editing/writing file
+-- opt.shortmess:append 'q' -- Disable "recording @q" (it's shown in statusline instead)
 opt.spelllang = { 'en', 'sv' }
 
 -- Sync clipboard between OS and Neovim.

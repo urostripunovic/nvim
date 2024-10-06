@@ -23,7 +23,7 @@ map('n', '<C-s>', ':w<CR>', { silent = true })
 map({ 'i', 's' }, '<C-s>', '<Esc>:w<CR>', { silent = true })
 map('x', '<C-s>', '<Esc>:w<CR>gv', { silent = true })
 
--- ahh windows
+-- ahh windows how i've missed ya
 map('n', '<BS>', 'X')
 map('n', '<M-BS>', 'db')
 
