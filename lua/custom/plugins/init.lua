@@ -4,8 +4,11 @@
 -- See the kickstart.nvim README for more information
 return {
   require 'custom.plugins.alpha',
+  require 'custom.plugins.treesitter-context',
+  require 'custom.plugins.action-preview',
   require 'custom.plugins.lsp',
   require 'custom.plugins.toggleterm',
+  require 'custom.plugins.guess-indent',
   require 'custom.plugins.conform',
   require 'custom.plugins.git-conflict',
   require 'custom.plugins.telescope',
