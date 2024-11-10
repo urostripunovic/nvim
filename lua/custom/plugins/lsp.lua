@@ -107,11 +107,11 @@ return {
     local servers = {
       -- clangd = {},
       gopls = {},
-      ocamllsp = {},
+      -- ocamllsp = {},
       java_language_server = {},
       cssls = {},
       eslint = {},
-      -- pyright = {},
+      pyright = {},
       -- rust_analyzer = {},
       -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
       --
@@ -153,7 +153,8 @@ return {
       'go-debug-adapter',
       'bash-debug-adapter',
       'delve',
-      'ocamllsp',
+      -- 'ocamllsp',
+      'pyright',
       'java-language-server',
       'typescript-language-server',
     })
