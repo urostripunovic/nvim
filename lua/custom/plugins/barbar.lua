@@ -28,6 +28,7 @@ return {
     map('n', '<leader>bc', '<cmd>BufferClose<CR>')
     map('n', '<leader>br', '<cmd>BufferRestore<CR>')
     map('n', '<leader>bo', '<cmd>BufferCloseAllButVisible<CR>')
+    map('n', '<leader>ba', '<cmd>BufferCloseAllButPinned<CR>')
     -- Move to previous/next
     map('n', '<M-l>', '<cmd>BufferNext<CR>')
     map('n', '<M-h>', '<cmd>BufferPrevious<CR>')

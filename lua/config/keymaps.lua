@@ -26,6 +26,9 @@ map('x', '<C-s>', '<Esc>:w<CR>gv', { silent = true })
 -- ahh windows how i've missed ya
 map('n', '<BS>', 'X')
 map('n', '<M-BS>', 'db')
+map('x', 'v', '$h')
+
+map('n', '<leader>s', [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]], { desc = 'Global search and replace in buffer' })
 
 -- terminal
 map('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' })

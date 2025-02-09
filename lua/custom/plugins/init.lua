@@ -3,9 +3,13 @@
 --
 -- See the kickstart.nvim README for more information
 return {
+  require 'custom.plugins.vim-tmux-navigator',
   require 'custom.plugins.alpha',
   require 'custom.plugins.treesitter-context',
-  require 'custom.plugins.action-preview',
+  -- require 'custom.plugins.action-preview',
+  require 'custom.plugins.smartsplit',
+  require 'custom.plugins.scrollbar-nvim',
+  -- require 'custom.plugins.focus',
   require 'custom.plugins.lsp',
   require 'custom.plugins.toggleterm',
   require 'custom.plugins.guess-indent',

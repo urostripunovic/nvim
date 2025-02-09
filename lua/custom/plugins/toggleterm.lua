@@ -20,7 +20,7 @@ return {
           border = 'TelescopeBorder',
         },
       },
-      size = vim.o.columns * 0.5,
+      size = vim.o.columns * 0.25,
     }
     -- vim.keymap.set('n', '<M-h>', function()
     --   local size = vim.o.lines * 0.3
