@@ -9,7 +9,6 @@ return {
   require 'custom.plugins.action-preview',
   require 'custom.plugins.smartsplit',
   require 'custom.plugins.scrollbar-nvim',
-  -- require 'custom.plugins.focus',
   require 'custom.plugins.lsp',
   require 'custom.plugins.toggleterm',
   require 'custom.plugins.guess-indent',
