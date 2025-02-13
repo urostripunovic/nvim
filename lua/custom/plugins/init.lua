@@ -14,6 +14,7 @@ return {
   require 'custom.plugins.guess-indent',
   require 'custom.plugins.conform',
   require 'custom.plugins.git-conflict',
+  require 'custom.plugins.trouble',
   require 'custom.plugins.telescope',
   require 'custom.plugins.cmp',
   require 'custom.plugins.todocomments',
