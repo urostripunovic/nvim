@@ -123,7 +123,7 @@ return {
         root_dir = require('lspconfig').util.root_pattern { 'package.json', 'tsconfig.json' },
         single_file_support = false,
         settings = {},
-      },
+      }, -- might be needed for when using a deno repo
       denols = {
         root_dir = require('lspconfig').util.root_pattern { 'deno.json', 'deno.jsonc' },
         single_file_support = false,
@@ -165,7 +165,7 @@ return {
       -- 'ocamllsp',
       'pyright',
       'java-language-server',
-      'typescript-language-server',
+      -- 'typescript-language-server',
     })
     require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 

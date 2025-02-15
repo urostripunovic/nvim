@@ -15,6 +15,7 @@ return {
   require 'custom.plugins.conform',
   require 'custom.plugins.git-conflict',
   require 'custom.plugins.trouble',
+  require 'custom.plugins.typescript-tools',
   require 'custom.plugins.telescope',
   require 'custom.plugins.cmp',
   require 'custom.plugins.todocomments',
