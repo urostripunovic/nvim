@@ -30,7 +30,7 @@ return {
     map('n', '<M-S-j>', resize 'down', { desc = 'Resize down' })
     map('n', '<M-S-k>', resize 'up', { desc = 'Resize up' })
     map('n', '<M-S-l>', resize 'right', { desc = 'Resize right' })
-    map('n', '<Left>', resize 'left', { desc = 'Resize left' })
+    -- map('n', '<Left>', resize 'left', { desc = 'Resize left' })
     -- map('n', '<Down>', resize 'down', { desc = 'Resize down' })
     -- map('n', '<Up>', resize 'up', { desc = 'Resize up' })
     -- map('n', '<Right>', resize 'right', { desc = 'Resize right' })
