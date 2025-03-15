@@ -32,7 +32,7 @@ require('lazy').setup({
     },
   },
   { 'Bilal2453/luvit-meta', lazy = true },
-  { import = 'custom.plugins' },
+  { import = 'custom.plugins.init' },
 }, {
   ui = {
     icons = vim.g.have_nerd_font and {} or {
