@@ -3,6 +3,9 @@
 --
 -- See the kickstart.nvim README for more information
 return {
+  -- configs
+  require 'config.tsc',
+  --
   require 'custom.plugins.vim-tmux-navigator',
   require 'custom.plugins.alpha',
   require 'custom.plugins.treesitter-context',

@@ -18,6 +18,9 @@ return {
       map('n', '<leader>lf', '<cmd>TSToolsFixAll<CR>', { desc = 'LSP fix all errors' })
       map('n', '<leader>lu', '<cmd>TSToolsRemoveUnused<CR>', { desc = 'LSP remove unused' })
       map('n', '<leader>lr', '<cmd>TSToolsRenameFile<CR>', { desc = 'LSP rename file' })
+      map('n', '<leader>lc', function()
+        require('tsc').run()
+      end, { desc = 'Type check project' })
     end,
   },
 }
