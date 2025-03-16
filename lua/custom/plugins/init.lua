@@ -7,6 +7,9 @@ return {
   require 'config.tsc',
   --
   require 'custom.plugins.vim-tmux-navigator',
+  require 'custom.plugins.windows',
+  require 'custom.plugins.notify',
+  require 'custom.plugins.noice',
   require 'custom.plugins.alpha',
   require 'custom.plugins.treesitter-context',
   require 'custom.plugins.action-preview',
