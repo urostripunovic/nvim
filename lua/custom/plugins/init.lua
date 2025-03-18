@@ -11,6 +11,7 @@ return {
   require 'custom.plugins.notify',
   require 'custom.plugins.noice',
   require 'custom.plugins.alpha',
+  require 'custom.plugins.smear-cursor',
   require 'custom.plugins.treesitter-context',
   require 'custom.plugins.action-preview',
   require 'custom.plugins.smartsplit',

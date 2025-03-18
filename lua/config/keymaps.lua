@@ -7,6 +7,7 @@ local map = vim.keymap.set
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
+-- map('n', 'gX', ':exec "slient explorer.exe \'%:p\' &"<CR>')
 map('i', '<M-b>', '<ESC>^i', { desc = 'move beginning of line' })
 map('i', '<M-e>', '<End>', { desc = 'move end of line' })
 map('i', '<M-h>', '<Left>', { desc = 'move left' })
@@ -19,6 +20,8 @@ map('n', 'k', 'gk')
 map('n', '<Esc>', '<cmd>nohlsearch<CR>')
 map('n', ';', ':', { desc = 'CMD enter command mode' })
 map('i', 'jk', '<Esc>', { desc = 'Leave insert mode' })
+
+map('n', '<leader>Z', ':edit ~/.zshrc<CR>')
 
 map({ 'n', 'v' }, '<M-q>', ':qa<CR>')
 map('n', '<C-s>', ':w<CR>', { silent = true })
