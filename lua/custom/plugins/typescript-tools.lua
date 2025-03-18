@@ -10,6 +10,9 @@ return {
       -- Disable formatting (use prettier instead, see `conform.lua`)
       -- client.server_capabilities.documentFormattingProvider = false
       -- client.server_capabilities.documentRangeFormattingProvider = false
+      local root_dir = require('lspconfig').util.root_pattern { 'package.json', 'tsconfig.json' }
+      local single_file_support = false
+      local settings = {}
 
       local map = vim.keymap.set
 
